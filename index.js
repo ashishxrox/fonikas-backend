@@ -11,7 +11,7 @@ const app = express();
 const PORT = process.env.PORT || 5001;
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https://fonikas.netlify.app"], // Allow frontend origin
+  origin: ["http://localhost:5173", "https://foinikas.netlify.app", "https://fonikas-frontend-37jx.vercel.app/"], // Allow frontend origin
   credentials: true // If you're using cookies or sessions
 }));
 
